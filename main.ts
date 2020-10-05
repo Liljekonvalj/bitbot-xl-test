@@ -5,6 +5,8 @@ input.onButtonPressed(Button.A, function () {
     basic.pause(500)
     bitbot.driveMilliseconds(-600, 400)
 })
+bitbot.bbEnableBluetooth(BBBluetooth.btEnable)
+bitbot.select_model(BBModel.XL)
 basic.forever(function () {
 	
 })
