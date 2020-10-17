@@ -1,4 +1,5 @@
 input.onButtonPressed(Button.A, function () {
+    bitbot.select_model(BBModel.XL)
     bitbot.driveMilliseconds(600, 400)
     basic.pause(500)
     bitbot.driveTurnMilliseconds(BBRobotDirection.Left, 100, 400)
